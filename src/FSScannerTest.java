@@ -65,7 +65,7 @@ public final class FSScannerTest extends JDialog {
     private Future<?> activeRenderTask;
 
     public FSScannerTest(Frame owner) {
-        this(owner, new FSScannerData(Paths.get(".tmp", "fs-data.bin")),
+        this(owner, new FSScannerData(FSScannerPaths.workspaceDirectory().resolve("fs-data.bin")),
                 new FSScannerCH(Paths.get("config.properties")));
     }
 
@@ -302,7 +302,7 @@ public final class FSScannerTest extends JDialog {
                 ? "Place the same page's lower section on the flatbed, rotated 180°, then scanning..."
                 : "Place the upper section of the test page on the flatbed, then scanning...");
         worker.submit(() -> {
-            Path testDir = Paths.get(".tmp").toAbsolutePath().normalize();
+            Path testDir = FSScannerPaths.workspaceDirectory();
             Path output = testDir.resolve(bottom ? "FSScannerTest_FSB.png" : "FSScannerTest_FST.png");
             try {
                 Files.createDirectories(testDir);
@@ -907,17 +907,29 @@ public final class FSScannerTest extends JDialog {
         return rotated;
     }
 
-    private java.util.List<Image> loadWindowIcons() {
-        java.util.List<Image> icons = new java.util.ArrayList<>();
-        Path png = Paths.get(System.getProperty("user.dir"), "res", "fs-scanner.png");
-        if (Files.isRegularFile(png)) {
-            try {
-                BufferedImage image = ImageIO.read(png.toFile());
-                if (image != null) icons.add(image);
-            } catch (IOException ignored) { }
-        }
-        return icons;
-    }
+
+		private java.util.List<Image> loadWindowIcons() {
+			java.util.List<Image> icons = new java.util.ArrayList<>();
+
+			Path png = FSScannerPaths.applicationDirectory()
+					.resolve("res")
+					.resolve("fs-scanner.png");
+
+			if (Files.isRegularFile(png)) {
+				try {
+					BufferedImage image = ImageIO.read(png.toFile());
+
+					if (image != null) {
+						icons.add(image);
+					}
+				} catch (IOException ignored) {
+					// Continue without a custom window icon if loading fails.
+				}
+			}
+
+			return icons;
+		}
+
 
     private String safeMessage(Throwable ex) {
         Throwable t = ex;

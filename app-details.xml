@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application schemaVersion="1.0">
+  <identity>
+    <name>FS Legal Size Scanner</name>
+    <version>1.0.1</version>
+    <author>Isrgrajan Gonardiya</author>
+    <project>RatioJuris</project>
+    <publisherDisplayName>RatioJuris</publisherDisplayName>
+    <publisherIdentity />
+  </identity>
+
+  <description>A Windows application designed to use flatbed scanners to capture and assemble legal-size documents from multiple scans.</description>
+
+  <licensing>
+    <name>GNU General Public License v3.0</name>
+    <spdxId>GPL-3.0-only</spdxId>
+  </licensing>
+
+  <links>
+    <repository>https://github.com/RatioJuris/FS-Legal-Size-Scanner</repository>
+    <homepage>https://github.com/RatioJuris/FS-Legal-Size-Scanner</homepage>
+    <supportUrl />
+  </links>
+
+  <platforms>
+    <platform architecture="x64">Windows</platform>
+  </platforms>
+
+  <runtime>
+    <type>Bundled Java runtime</type>
+  </runtime>
+
+  <packaging>
+    <target>EXE</target>
+    <target>MSI</target>
+    <target>MSIX</target>
+    <note>Package-specific installer manifests, publisher identity, signing configuration, and Store metadata are maintained in their respective packaging configurations.</note>
+  </packaging>
+
+  <branding>
+    <svgLogo source="res/logo.svg" />
+    <rasterLogo source="res/logo-512.png" />
+    <applicationImage source="res/fs-scanner.png" />
+    <windowsApplicationIcon source="res/fs-scanner.ico" />
+  </branding>
+
+  <copyright>Copyright Isrgrajan Gonardiya</copyright>
+</application>

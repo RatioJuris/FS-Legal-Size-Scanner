@@ -21,7 +21,8 @@ import java.util.concurrent.atomic.AtomicBoolean;
  * Default Windows path: bin\\tesseract\\tesseract.exe
  */
 public final class FSScannerCR implements AutoCloseable {
-    private static final Path DEFAULT_EXE = Paths.get("bin", "tesseract", "tesseract.exe");
+    private static final Path DEFAULT_EXE =
+        FSScannerPaths.bundled("tesseract", "tesseract.exe");
     private static final Duration DEFAULT_TIMEOUT = Duration.ofMinutes(5);
 
     private final Path executable;
@@ -52,8 +53,11 @@ public final class FSScannerCR implements AutoCloseable {
         Path bundled = DEFAULT_EXE.toAbsolutePath().normalize();
         if (Files.isRegularFile(bundled)) return bundled;
         String os = System.getProperty("os.name", "").toLowerCase(Locale.ROOT);
-        Path extensionless = Paths.get("bin", "tesseract", os.contains("win") ? "tesseract.exe" : "tesseract");
-        return extensionless.toAbsolutePath().normalize();
+        Path extensionless = FSScannerPaths.bundled(
+        "tesseract",
+        os.contains("win") ? "tesseract.exe" : "tesseract"
+		);
+		return extensionless.toAbsolutePath().normalize();
     }
 
     public Path getExecutablePath() { return executable; }

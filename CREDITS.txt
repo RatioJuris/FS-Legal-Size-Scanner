@@ -1,0 +1,41 @@
+================================================================================
+                                ACKNOWLEDGMENTS
+================================================================================
+
+This software, FS Legal Size Scanner, is built using and powered by the 
+following open-source projects, tools, and technologies. We express our deep 
+gratitude to the developers and communities behind them.
+
+--------------------------------------------------------------------------------
+1. JAVA (OpenJDK / JVM)
+   Developed by: Oracle Corporation, Microsoft, and the OpenJDK Community
+   Website: https://microsoft.com
+   Description: Provides the core runtime environment and platform execution 
+                for this application.
+
+2. ImageMagick
+   Developed by: ImageMagick Studio LLC
+   Website: https://imagemagick.org
+   Description: Used for robust, high-quality image processing, conversion, 
+                and manipulation.
+
+3. Tesseract OCR
+   Developed by: Tesseract Open Source OCR Project
+   Website: https://tesseract-ocr.github.io/
+   Description: Powers the text recognition and optical character recognition 
+                (OCR) capabilities.
+
+4. ScannerAPIGateway
+   Developed by: RatioJuris
+   Website: https://github.com/RatioJuris/ScannerAPIGateway
+   Description: Facilitates the hardware interface communication layer for 
+                document scanning.
+
+5. Windows API
+   Developed by: Microsoft Corporation
+   Website: https://learn.microsoft.com/en-us/windows/win32/apiindex/windows-api-list
+   Description: Utilized for low-level operating system integration and native 
+                desktop functionality.
+
+--------------------------------------------------------------------------------
+Thank you to all the contributors who make these technologies available.

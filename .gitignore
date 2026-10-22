@@ -21,3 +21,8 @@ hs_err_pid*.log
 .DS_Store
 Thumbs.db
 desktop.ini
+
+# Release artifacts and local backups
+/dist/
+/backup-version-update-*/
+/release-backup-*/

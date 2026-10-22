@@ -23,7 +23,8 @@ import java.util.concurrent.atomic.AtomicBoolean;
  * deskewing, and PDF rendering outside the JVM heap to prevent OutOfMemoryErrors.
  */
 public final class FSScannerMagic implements AutoCloseable {
-    private static final Path DEFAULT_DIRECTORY = Paths.get("bin", "ImageMagick");
+    private static final Path DEFAULT_DIRECTORY =
+        FSScannerPaths.bundled("ImageMagick");
     private static final Duration DEFAULT_TIMEOUT = Duration.ofMinutes(10);
 
     private final Path executable;

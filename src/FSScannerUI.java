@@ -24,8 +24,9 @@ public final class FSScannerUI extends JFrame {
 
     private static final DateTimeFormatter FILE_TS = DateTimeFormatter.ofPattern("yyyyMMdd_HHmmss");
 
-    private final Path rawDir = Paths.get(FSScannerDefault.RAW_DIRECTORY).toAbsolutePath().normalize();
-    private final FSScannerCH config = new FSScannerCH(Paths.get("config.properties"));
+    private final Path rawDir = FSScannerPaths.workspaceDirectory();
+    private final FSScannerCH config =
+        new FSScannerCH(FSScannerPaths.configurationFile());
     private final FSScannerData scanData = new FSScannerData(rawDir.resolve("fs-data.bin"));
     private final FSScannerHW hardware = new FSScannerHW();
     private final FSScannerMagic magic = new FSScannerMagic();
@@ -76,13 +77,23 @@ public final class FSScannerUI extends JFrame {
         });
     }
 
-    private void loadWindowIcon() {
-        Path iconPath = Paths.get("res", "fs-scanner.png");
-        if (Files.isRegularFile(iconPath)) {
-            ImageIcon icon = new ImageIcon(iconPath.toString());
-            if (icon.getIconWidth() > 0) setIconImage(icon.getImage());
-        }
-    }
+
+		private void loadWindowIcon() {
+			Path iconPath = FSScannerPaths.applicationDirectory()
+					.resolve("res")
+					.resolve("fs-scanner.png");
+
+			if (!Files.isRegularFile(iconPath)) {
+				return;
+			}
+
+			ImageIcon icon = new ImageIcon(iconPath.toString());
+
+			if (icon.getIconWidth() > 0 && icon.getIconHeight() > 0) {
+				setIconImage(icon.getImage());
+			}
+		}
+
 
     private void buildLayout() {
         JPanel root = new JPanel(new BorderLayout(12, 12));

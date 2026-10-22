@@ -1,0 +1,176 @@
+FS LEGAL SIZE SCANNER
+END-USER LICENCE AGREEMENT (EULA)
+
+Publisher: RatioJuris
+Product: FS Legal Size Scanner
+Version: 1.0.1
+
+IMPORTANT - PLEASE READ CAREFULLY
+
+This End-User Licence Agreement ("Agreement") governs your installation and
+use of FS Legal Size Scanner ("Software"). By installing, copying, or using
+the Software, you agree to this Agreement. If you do not agree, do not install
+or use the Software.
+
+1. LICENCE GRANT
+
+Subject to this Agreement, RatioJuris ("Publisher") grants you a limited,
+non-exclusive, non-transferable licence to install and use the Software for
+your own lawful purposes, in accordance with its intended functionality and
+any separate written terms supplied by the Publisher.
+
+This Agreement does not transfer ownership of the Software to you. All rights
+not expressly granted are reserved by the Publisher or the relevant rights
+holders.
+
+2. PERMITTED USE
+
+You may:
+
+- Install and use the Software on devices that you own or are authorised to
+  use.
+- Make a reasonable backup copy of the installer for archival or recovery
+  purposes.
+- Use the Software to capture, process, and assemble documents, subject to
+  applicable law and the rights of others.
+
+You must not:
+
+- Sell, rent, lease, sublicense, redistribute, or commercially exploit the
+  Software as a standalone product without the Publisher's prior written
+  permission.
+- Copy, modify, adapt, translate, or create derivative works of the Software
+  except where applicable law permits or the Publisher has authorised it in
+  writing.
+- Reverse engineer, decompile, or disassemble the Software, except to the
+  extent applicable law expressly permits such activity notwithstanding this
+  restriction.
+- Remove or alter copyright notices, branding, or other proprietary notices.
+- Use the Software unlawfully or to infringe another person's rights.
+
+3. THIRD-PARTY COMPONENTS
+
+The Software may include or work with third-party software, runtimes,
+libraries, scanner drivers, OCR tools, or image-processing utilities. Those
+components may be subject to separate licences and notices.
+
+Where a third-party licence grants you rights that conflict with this
+Agreement, the applicable third-party licence governs that component to the
+extent of the conflict.
+
+You are responsible for reviewing and complying with applicable third-party
+licence terms. Nothing in this Agreement limits rights that a third-party
+licence grants directly to you.
+
+4. DOCUMENTS AND USER CONTENT
+
+You retain the rights you have in documents and other content that you scan,
+import, process, or create using the Software.
+
+You are responsible for ensuring that you have the necessary rights and
+permissions to scan, store, process, and reproduce that content. The Software
+does not grant legal permission to reproduce confidential, copyrighted,
+privileged, or otherwise restricted material.
+
+5. PRIVACY AND DATA
+
+This Agreement does not itself describe every data practice of the Software or
+its third-party components. Refer to any privacy notice supplied with the
+Software for information about data handling, if applicable.
+
+You should retain your own backups of important documents and verify the
+output files before relying on them.
+
+6. UPDATES AND SUPPORT
+
+The Publisher may provide updates, fixes, or support at its discretion. Unless
+separately agreed in writing or required by applicable law, the Publisher is
+not obligated to provide updates, maintenance, technical support, or continued
+availability of any particular feature.
+
+An update may be subject to additional terms presented when the update is
+installed or used.
+
+7. INTELLECTUAL PROPERTY
+
+The Software, including its code, design, branding, and documentation, is
+protected by applicable intellectual-property laws.
+
+Except for the limited licence expressly granted in this Agreement, no
+ownership interest or intellectual-property right is transferred to you.
+
+"FS Legal Size Scanner" and "RatioJuris" are names used to identify the
+Software and its publisher. Third-party names and marks belong to their
+respective owners.
+
+8. DISCLAIMER OF WARRANTIES
+
+To the maximum extent permitted by applicable law, the Software is provided
+"AS IS" and "AS AVAILABLE," without warranties or conditions of any kind,
+whether express, implied, or statutory, including implied warranties of
+merchantability, fitness for a particular purpose, and non-infringement.
+
+The Publisher does not warrant that the Software will be uninterrupted,
+error-free, compatible with every scanner or system, or capable of meeting
+every user requirement. Scanner hardware, drivers, operating-system
+configuration, image quality, and third-party components may affect results.
+
+Nothing in this Agreement excludes or limits a warranty or right that cannot
+lawfully be excluded or limited.
+
+9. LIMITATION OF LIABILITY
+
+To the maximum extent permitted by applicable law, the Publisher will not be
+liable for indirect, incidental, special, consequential, or punitive loss, or
+for loss of profits, business, data, goodwill, or anticipated savings arising
+from the use of or inability to use the Software.
+
+You are responsible for checking scanned and assembled documents for
+completeness, legibility, orientation, page order, and accuracy before
+submitting, filing, publishing, or otherwise relying on them.
+
+Nothing in this Agreement excludes or limits liability where such exclusion or
+limitation is prohibited by applicable law, including liability that cannot
+lawfully be excluded.
+
+10. TERMINATION
+
+This licence remains in effect until terminated. It terminates automatically
+if you materially breach this Agreement.
+
+Upon termination, you must stop using the Software and delete copies in your
+possession or control, except where retention is required by law.
+
+Any provisions that by their nature should survive termination will continue
+to apply.
+
+11. EXPORT AND LEGAL COMPLIANCE
+
+You must comply with laws and regulations applicable to your use, transfer,
+and distribution of the Software. You must not use the Software in a manner
+prohibited by applicable law.
+
+12. GOVERNING LAW
+
+The governing law and dispute-resolution arrangements, if any, will be those
+specified in a separate written agreement with the Publisher. If no such
+agreement exists, applicable law will determine the rules governing this
+Agreement.
+
+Nothing here removes any mandatory consumer protections that apply to you.
+
+13. ENTIRE AGREEMENT AND SEVERABILITY
+
+This Agreement constitutes the terms governing your use of the Software unless
+a separate written agreement applies.
+
+If any provision is held unenforceable, the remaining provisions will continue
+to apply to the extent permitted by law.
+
+14. CONTACT
+
+For licence questions, permissions, or other enquiries, contact the Publisher
+through the official RatioJuris contact channel or the contact details
+supplied with the Software.
+
+END OF AGREEMENT

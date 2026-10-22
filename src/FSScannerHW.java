@@ -18,7 +18,11 @@ import java.util.concurrent.atomic.AtomicBoolean;
  * Asynchronous hardware/scanner API bridge for FS Scanner.
  */
 public final class FSScannerHW implements AutoCloseable {
-    private static final Path DEFAULT_EXE = Paths.get("bin", "ScannerAPIGateway", "ScannerAPIGateway.exe");
+    private static final Path DEFAULT_EXE =
+        FSScannerPaths.bundled(
+                "ScannerAPIGateway",
+                "ScannerAPIGateway.exe"
+        );
     private static final Duration DEFAULT_TIMEOUT = Duration.ofMinutes(3);
 
     private final Path executable;
