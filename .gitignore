@@ -1,0 +1,23 @@
+
+# Local configuration and scanner cache
+/config.properties
+
+# Bundled binaries — intentionally excluded
+/bin/
+
+# Generated build output
+/build/
+
+# Temporary and diagnostic files
+*.tmp
+*.log
+*.bak
+hs_err_pid*.log
+
+# IDE and operating-system files
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+desktop.ini
